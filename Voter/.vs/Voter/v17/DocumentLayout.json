@@ -1,0 +1,368 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\MVC\\Voter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\controllers\\votercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\controllers\\votercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\views\\voter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\views\\voter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\repository\\voterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\repository\\voterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\wwwroot\\js\\voter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\wwwroot\\js\\voter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\interfaces\\ivoterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\interfaces\\ivoterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\models\\votermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\models\\votermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\utility\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\utility\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\wwwroot\\assets\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\wwwroot\\assets\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|d:\\projects\\mvc\\voter\\voter\\voter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E8F70F72-E781-436D-8C48-E88266BF2F64}|Voter\\Voter.csproj|solutionrelative:voter\\voter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Voter\\Index.cshtml",
+              "RelativeDocumentMoniker": "Voter\\Views\\Voter\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Voter\\Index.cshtml",
+              "RelativeToolTip": "Voter\\Views\\Voter\\Index.cshtml",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAgwLEAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T17:02:41.552Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Voter.js",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\wwwroot\\js\\Voter.js",
+              "RelativeDocumentMoniker": "Voter\\wwwroot\\js\\Voter.js",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\wwwroot\\js\\Voter.js",
+              "RelativeToolTip": "Voter\\wwwroot\\js\\Voter.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-21T07:46:39.84Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VoterRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Repository\\VoterRepository.cs",
+              "RelativeDocumentMoniker": "Voter\\Repository\\VoterRepository.cs",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Repository\\VoterRepository.cs",
+              "RelativeToolTip": "Voter\\Repository\\VoterRepository.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAWwJAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:40:38.098Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VoterController.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Controllers\\VoterController.cs",
+              "RelativeDocumentMoniker": "Voter\\Controllers\\VoterController.cs",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Controllers\\VoterController.cs",
+              "RelativeToolTip": "Voter\\Controllers\\VoterController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:02:32.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IVOTERRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Interfaces\\IVOTERRepository.cs",
+              "RelativeDocumentMoniker": "Voter\\Interfaces\\IVOTERRepository.cs",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Interfaces\\IVOTERRepository.cs",
+              "RelativeToolTip": "Voter\\Interfaces\\IVOTERRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T16:56:10.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Voter\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Voter\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-22T08:33:02.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Voter\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Voter\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T08:33:18.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Voter\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Voter\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T08:33:21.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VoterModel.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Models\\VoterModel.cs",
+              "RelativeDocumentMoniker": "Voter\\Models\\VoterModel.cs",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Models\\VoterModel.cs",
+              "RelativeToolTip": "Voter\\Models\\VoterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T16:44:18.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Voter\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Voter\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T18:08:26.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Voter\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Voter\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T08:20:37.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Voter\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Voter\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T08:51:20.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\appsettings.json",
+              "RelativeDocumentMoniker": "Voter\\appsettings.json",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\appsettings.json",
+              "RelativeToolTip": "Voter\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-20T16:18:02.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DbAccess.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Utility\\DbAccess.cs",
+              "RelativeDocumentMoniker": "Voter\\Utility\\DbAccess.cs",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Utility\\DbAccess.cs",
+              "RelativeToolTip": "Voter\\Utility\\DbAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T16:26:45.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Program.cs",
+              "RelativeDocumentMoniker": "Voter\\Program.cs",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Program.cs",
+              "RelativeToolTip": "Voter\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T16:17:58.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Voter\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Voter\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T11:41:01.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Voter\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Voter\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:21:04.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Voter\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Voter\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T08:32:49.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "app.css",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\wwwroot\\assets\\css\\app.css",
+              "RelativeDocumentMoniker": "Voter\\wwwroot\\assets\\css\\app.css",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\wwwroot\\assets\\css\\app.css",
+              "RelativeToolTip": "Voter\\wwwroot\\assets\\css\\app.css",
+              "ViewState": "AQIAAAkiAAAAAAAAAAAAABMiAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-22T08:20:40.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Voter\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Voter\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T08:32:51.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Voter.csproj",
+              "DocumentMoniker": "D:\\Projects\\MVC\\Voter\\Voter\\Voter.csproj",
+              "RelativeDocumentMoniker": "Voter\\Voter.csproj",
+              "ToolTip": "D:\\Projects\\MVC\\Voter\\Voter\\Voter.csproj",
+              "RelativeToolTip": "Voter\\Voter.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-20T16:30:39.568Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

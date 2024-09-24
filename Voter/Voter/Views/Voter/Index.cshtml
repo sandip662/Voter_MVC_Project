@@ -1,0 +1,244 @@
+﻿@using System.Globalization;
+
+@model Voter.Models.VoterModel
+@{
+    ViewData["Title"] = "Voter";
+   Layout = "~/Views/Shared/_Layout.cshtml";
+ 
+}
+
+
+
+
+
+
+
+<div class="container-fluid">
+
+    <!-- start page title -->
+   <div class="row">
+        <div class="col-12">
+            <div class="card border-top border-0 border-4 border-info">
+                <div class="card-body" style="padding-bottom: 1px; padding-top: 1px; box-shadow: 2px 2px 5px Gray">
+                    <div class="page-title-box">
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Pages</a></li>
+                                <li class="breadcrumb-item active">Student Form</li>
+                            </ol>
+                        </div>
+                        <h4 class="page-title">Voter Form</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end page title -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card border-top border-0 border-4 border-info">
+                <div class="card-body" style=" box-shadow: 2px 2px 5px Gray">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row mb-2">
+                                <div class="col-sm-4">
+                                    <button type="button" class="btn btn-success waves-effect waves-light" data-bs-toggle="modal" data-bs-target="#VoterModal"><i class="mdi mdi-plus-circle me-2"></i> Add Record</button>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="text-sm-end">
+                                        <button type="button" style="display:none" class="btn btn-info mb-2 me-1">Import</button>
+                                        <button type="button" style="display:none" class="btn btn-info mb-2 me-1">Export Pdf</button>
+                                        <button type="button" style="display:none" class="btn btn-blue mb-2 me-1">Export Excel</button>
+                                        <button type="button" style="display:none" class="btn btn-primary mb-2 me-1">Print</button>
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" id="RefreshModel"><i class="mdi mdi-cloud-refresh me-2"></i> Refresh</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="table-responsive">
+                                <table id="tblvoter" class="table table-striped table-bordered" style="width:100% ;text-align:center">
+                                    <thead class="table-secondary">
+                                        <tr>
+                                            <th>Sl NO</th>
+                                            <th>NAME</th>
+                                            @* <th>Status</th> *@
+                                            <th>AGE</th>
+                                            <th>GENDER </th>
+                                            <th>STATE</th>
+                                            <th>VOTERCARD NO</th>
+                                            <th>ACTION</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        @{
+                                            int count = 0;
+                                        }
+
+                                        @foreach (VoterModel AC in ViewBag.Vote)
+                                        {
+                                            count++;
+                                            <tr>
+                                                <td>@count</td>
+                                                <td>@AC.NAME</td>
+                                                <td>@AC.AGE</td>
+                                                <td>@AC.GENDER_NAME</td>
+                                                <td>@AC.STATE_NAME</td>
+                                                <td>@AC.VOTERCARD_NO</td>
+                                                @* <td><span class="badge rounded-pill bg-success">Active</span></td> *@
+                                                <td>
+                                                    <a href="javascript:;" class="action-icon"><i class="mdi mdi-square-edit-outline" onclick="EditVote(@AC.VOTER_KEY)" data-toggle="tooltip" title="Edit" style="color:forestgreen"></i></a>
+                                                    <a href="javascript:;" class="action-icon"> <i class="mdi mdi-delete" onclick="TagDelete(@AC.VOTER_KEY)" data-toggle="tooltip" title="Delete" style="color:red"></i></a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="VoterModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            @using (Html.BeginForm("SaveVote", "Voter", FormMethod.Post, new { @class = "form-horizontal needs-validation", role = "form", enctype = "multipart/form-data", novalidate = "true" }))
+            @* <form asp-controller="Voter" asp-action="SaveVote" method="post" class="form-horizontal needs-validation" role="form" enctype="multipart/form-data" novalidate="true"> *@
+            {
+                @*      <div class="text-danger">
+            @Html.ValidationSummary()
+            </div> *@
+
+                <input type="hidden" asp-for="VOTER_KEY" />
+                <div class="modal-header border-bottom border-0 border-4 border-info" style="background-color: #85b1b4; ">
+                    <h5 class="modal-title showCls" id="staticBackdropLabel">Voter Form</h5>
+
+                    @*<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color:white">X</button>*@
+                </div>
+
+                <div class="modal-body">
+
+
+                    <!-- Text Box -->
+                    <div class="form-group mb-3" >
+
+                        <label for="NAME" class="mb-2">NAME<sup style="color:red">*</sup>:</label>
+                        <input type="text" class="form-control" asp-for="NAME" placeholder="Enter name" required>
+                        <div class="text-danger">
+                            @Html.ValidationMessageFor(x => x.NAME)
+                        </div>
+                     
+                    </div>
+
+                
+
+                    <div class="form-group mb-3" >
+
+                        <label for="AGE" class="mb-2"> AGE<sup style="color:red">*</sup>:</label>
+                        <input type="text" class="form-control" asp-for="AGE" placeholder="Enter age" required>
+                        <div class="text-danger">
+                            @Html.ValidationMessageFor(x => x.AGE)
+                        </div>
+
+                    </div>
+
+                 
+                    <!-- Radio Buttons -->
+                    <div class="form-group mb-3" >
+
+                        <label asp-for="GENDER_ID" class="mb-2">CHOOSE GENDER <sup style="color:red">*</sup>:</label>
+                        @foreach (var option in ViewBag.genderlist)
+                        {
+                            <div class="form-check">
+                                <input class="form-check-input" asp-for="GENDER_ID" type="radio" value="@option.GENDER_ID" required>
+                                <label class="form-check-label" for="gender-@option.GENDER_NAME">
+                                    @option.GENDER_NAME
+                                </label>
+                            </div>
+                        }
+                        @*  span asp-validation-for="GENDER_ID" class="text-danger"></span> *@
+                        <div class="text-danger">
+                            @Html.ValidationMessageFor(x => x.GENDER_ID)
+                        </div>
+                    </div>
+
+                 
+
+                    <div class="form-group mb-3" >
+
+                        <label class="mb-2" >STATE<sup style="color:red">*</sup> :</label>
+                        @Html.DropDownListFor(m => m.STATE_ID, ViewBag.state as SelectList, new { @class = "form-select",@required="required" } )
+                        <div class="text-danger">
+                        @Html.ValidationMessageFor(x => x.STATE_ID)
+                        </div>
+                    </div>
+
+               
+
+
+                    <div class="form-group mb-3" >
+
+                        <label for="VOTERCARD NO" class="mb-2">VOTERCARD NO<sup style="color:red">*</sup>:</label>
+                        <input type="text" class="form-control" asp-for="VOTERCARD_NO" placeholder="Enter text" required>
+                        <div class="text-danger">
+                            @Html.ValidationMessageFor(x => x.VOTERCARD_NO)
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="modal-footer">
+                    @* <button type="submit" id="SaveStudentDetails" name="SaveStudentDetails" class="btn btn-success"><i class="fas fa-save"></i>&nbsp; Submit</button> *@
+                    <button type="submit"   id="SaveVoterDetails" name="SaveDetails" class="btn btn-success"><i class="fas fa-save"></i>&nbsp; Submit</button>
+                    <a href="javascript:;" id="closeVoter" class="btn btn-warning"><i class="mdi mdi-close"></i>&nbsp; Close</a>
+                </div>
+                Html.EndForm();
+                @* </form> *@
+            }
+
+        </div>
+
+    </div>
+</div>
+
+
+@section dateStyle
+{
+    <!--plugins-->
+
+    <link href="~/assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+
+}
+
+@section dateScript
+{
+    <!--plugins-->
+
+    <script src="~/assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+    <script src="~/assets/plugins/datatable/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+
+   
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script src="~/js/Voter.js"></script>
+
+
+
+
